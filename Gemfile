@@ -12,6 +12,9 @@ group :development, :test do
   gem 'spork', '0.9.2'
 end
 
+group :development do
+   gem 'annotate', '2.5.0'   #Placing this gem here because the annotations arent needed in production application 
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
