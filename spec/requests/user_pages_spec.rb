@@ -37,7 +37,7 @@ describe "User pages" do
           it { should have_content('error') }
         end
     end
-
+    
     describe "with valid information" do
       before do
         fill_in "Name",         with: "Example User"
