@@ -1,9 +1,10 @@
 <% provide(:title, "Sign in") %>
 <h1>Sign in</h1>
 
-<div class ="row">
-  <div class ="span6 offset3">
-    <%= form_for(:session, url: sessions_path) do |f| %> <!-- We can use form_tag in place of form_for but its less in common with the signup form-->
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
       <%= f.label :email %>
       <%= f.text_field :email %>
 
