@@ -93,9 +93,9 @@ describe "Authentication" do
           end
 
           describe "visiting the user index" do
-            before { visit user_path }
-            it { should have_selector('title', text: 'Sign in')}
-          end
+            before { visit users_path }
+            it { should have_selector('title', text: 'Sign in') }
+        end
         end
       end
 
@@ -106,7 +106,7 @@ describe "Authentication" do
         before { sign_in non_admin }
 
         describe "submitting a DELETE request to the Users#destroy action" do
-          before { delete user_path}
+          before { delete user_path(user)}
           specify { response.should redirect_to(root_url)}
         end
       end
