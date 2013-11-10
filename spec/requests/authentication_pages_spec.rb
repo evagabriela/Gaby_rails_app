@@ -92,10 +92,10 @@ describe "Authentication" do
             specify { response.should redirect_to(root_url) }
           end
 
-          describe "visiting the user index" do
-            before { visit users_path }
-            it { should have_selector('title', text: 'Sign in') }
-        end
+        #   describe "visiting the user index" do
+        #     before { visit users_path }
+        #     it { should have_selector('title', text: 'Sign in') }
+        # end
         end
       end
 
