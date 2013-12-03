@@ -20,6 +20,12 @@ I'm going to share my experiences while moving forward...
 "The opportunities I am encountering to always learn something new, and calling it work, are one of the greatest gifts I am getting from the software developer world.  I hope you enjoy it as much as I do and I also hope you will join me on this journey" =)
 
 
+Screenshots:
 
+![image](https://s3-us-west-1.amazonaws.com/gabyrailsapp/Screen+Shot+2013-11-29+at+4.25.46+PM.png)
+
+![image](https://s3-us-west-1.amazonaws.com/gabyrailsapp/Screen+Shot+2013-11-29+at+4.27.13+PM.png)
+
+![image](https://s3-us-west-1.amazonaws.com/gabyrailsapp/Screen+Shot+2013-11-29+at+4.27.25+PM.png)
 
 
